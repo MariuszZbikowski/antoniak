@@ -1,0 +1,40 @@
+
+body {
+width: 100%;
+font-family: 'Open Sans', sans-serif;
+}
+h1 {
+     font-family: 'Oswald', sans-serif;
+     font-weight: bold;
+}
+#title {
+     background-color: #c6e377;
+     text-align: center;
+}
+#main-img {
+     width: 1200px;
+}
+#title img:last-child {
+     width:25%;
+     border-radius:  100%;
+     border:  10px solid #fbfad3;
+position: relative;
+bottom: 200px;
+right: 90px;
+}
+.navbar {
+     background-color: #729d39;
+     width: 100%;
+}
+#title {
+     text-align: center;
+}
+
+#contact img {
+     width: 1000px;
+}
+#butterfly {
+     width: 10%;
+     position: relative;
+     bottom: 550px;
+}
