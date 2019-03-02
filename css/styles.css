@@ -1,43 +1,67 @@
-
 body {
-width: 100%;
-font-family: 'Open Sans', sans-serif;
+     width: 100%;
+     font-family: 'Open Sans', sans-serif;
+     text-align: center;
 }
+
 .container-fluid {
-     padding: 10% 5% 5%;
+     padding: 7% 10%;
 }
-h1 {
+
+h1,
+h2,
+h3 {
      font-family: 'Oswald', sans-serif;
      font-weight: bold;
 }
-h2{
+
+h2 {
      padding-right: 0;
 }
+
 .row {
      grid-row-gap: 0;
 }
+
 #title {
      background-color: #c6e377;
      text-align: center;
 }
+
+#title .container-fluid {
+     padding: 7% 10% 0;
+}
+
 #main-img {
+     margin-top: 25px;
      width: 100%;
-     -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.64);
--moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.64);
-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.64);
+     -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.64);
+     -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.64);
+     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.64);
 }
-#title img:last-child {
-     width:25%;
-     border-radius:  100%;
-     border:  10px solid #fbfad3;
-position: relative;
-bottom: 200px;
-right: 90px;
+
+.gardener {
+
+     border-radius: 100%;
+     border: 10px solid #c6e377;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 500px;
+     margin: auto;
+     width: 20%;
 }
+
+.navbar-brand {
+     font-size: 2em;
+     font-weight: 700
+}
+
 .navbar {
      background-color: #729d39;
      width: 100%;
 }
+
 #title {
      text-align: center;
 }
@@ -45,8 +69,50 @@ right: 90px;
 #contact img {
      width: 40%;
 }
+
 #butterfly {
      width: 10%;
-     position: relative;
+     position: absolute;
      bottom: 550px;
+}
+
+.title-main {
+     text-align: center;
+}
+
+#about-me {
+     background-color: #fbfad3;
+}
+
+#about-me img {
+     width: 100%;
+}
+
+.text-me {
+     text-align: justify;
+     hyphens: auto;
+}
+
+/* services section */
+#services {
+     text-align: center;
+}
+
+#services img {
+     width: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+     filter: invert(100%);
+}
+
+/* section foooter */
+#footer {
+     background-color: #36622b;
+     color: white;
+}
+
+#contact img {
+     width: 100%;
 }
